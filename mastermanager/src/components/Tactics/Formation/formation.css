@@ -1,0 +1,209 @@
+.formation-form{
+    padding: 20px 5px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    height: 78px;
+}
+
+.formation-select{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 5px;
+    background-color: rgb(0,50,75);
+    width: 180px;
+    text-align:center;
+    color: white;
+}
+
+.formation-select-container{
+                
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 5px 10px;
+    background-color: rgb(0,50,75);
+    width: 200px;
+    border-radius: 5px;
+
+}
+
+
+.formation-player-list-container{
+    max-height: 480px;
+    overflow: scroll;
+}
+.formationPlayerListItem{
+    display:flex;
+    padding: 5px 15px;
+    font-size:14px; 
+    margin: 3px 0px ;
+    cursor: pointer;
+  
+}
+.formationPlayerListItemTitle{
+    margin: 0px 15px;
+    display:flex;
+    padding: 5px 5px;
+    font-size:16px;
+    background-color: white;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+
+.formation-player-position{
+    width: 35px;
+    text-align: left;
+    text-transform:uppercase;
+}
+
+.formation-player-number{
+        width: 35px;
+        text-align:center;    
+}
+
+.formation-player-name{
+        width: 150px;
+        padding: 0px 3px;
+        text-align: left;
+}
+.formation-player-position-title{
+    width: 35px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(120, 120, 120); 
+}
+
+.formation-player-number-title{
+        width: 35px;
+        text-align:center; 
+        font-size: 12px; 
+        color: rgb(120, 120, 120); 
+}
+
+.formation-player-name-title{
+        width: 150px;
+        padding: 0px 3px;
+        text-align: left;
+        font-size: 12px;
+        color: rgb(120, 120, 120); 
+}
+
+.formation-attributes-list{
+    padding: 0px;
+    display:flex;
+    flex-direction: column;
+    list-style-type: none ;
+ }
+ .formation-attributes-list > li{
+     display:flex;
+     font-size:14px;
+     padding: 0px 20px;
+     width: 280px;
+     justify-content: space-between;
+ }
+ 
+ .formation-attributes-list > li:nth-child(odd){
+      background-image: linear-gradient(to right,white,#eee, #eee,white);
+ }
+
+ .fommation-attributes-list-item-name{
+     text-align: left;
+ }
+ .fommation-attributes-list-item-value{
+     display: flex;
+     justify-content: space-between;
+     width: 130px;
+ }
+ .fommation-attributes-list-item-value-bar{
+     text-align: left;
+     background-color: rgb(185, 184, 184);
+     border-radius: 5px;
+     width: 100px;
+     height: 15px;
+    margin: auto 0px;
+ }
+ .fommation-attributes-list-item-value-bar > div{
+     text-align: left;
+     background-color:rgb(63, 252, 56);
+     
+     border-radius: 5px;
+     width: 100px;
+     height: 15px;
+     margin: auto 0px;
+ }
+ .fommation-attributes-list-item-value-number{
+     text-align: right;
+ }
+
+ .instruction-container{
+     margin: 10px auto ;
+     padding: 10px 16px 0px;
+     width: 300px;
+     color:#333;
+     border-bottom: 0px solid #ccc;     
+ }
+ .instruction-container:nth-last-child(1){
+     margin: 10px auto 5px;
+     padding: 10px 16px 0px;
+     width: 300px;
+     color:#333;
+     border-bottom: 0px solid #ccc;     
+ }
+
+ .instruction-name{
+     margin: 10px 3px;
+     padding: 0px;
+     text-align: left;
+     font-size: 16px;
+
+     font-weight: 700;
+
+ }
+
+ .instruction-values{
+     display: flex;
+     flex-direction: row;
+     /* justify-content: space-evenly; */
+     flex-wrap: wrap;
+     width: 100%;
+     align-items: stretch;
+     border: 2px solid #ccc;
+     padding: 0px;
+     border-radius: 5px;
+
+ }
+ 
+
+ .instruction-value{
+     height: 35px;
+     min-width: 100px;
+     max-width: 300px;
+     flex: 1;
+     padding: 7px;
+     text-align: center;
+     border: 1px solid #ccc;
+     
+     
+     cursor: pointer;
+
+ }
+ .instruction-value-active{
+     height: 35px;
+     min-width: 100px;
+     max-width: 300px;
+     flex: 1;
+     padding: 7px;
+     text-align: center;
+     border: 1px solid #ccc;
+     background-color:rgb(37, 163, 48);
+     /* background-color:rgb(0,50,75); */
+     color: white;
+    
+     cursor: pointer;
+
+ }

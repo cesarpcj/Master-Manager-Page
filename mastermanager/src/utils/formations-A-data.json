@@ -1,0 +1,323 @@
+{
+    "letter":"A",
+    
+    "formation":{
+        "name": "442",
+        "teamInstructions":[
+            [
+
+                {
+                    "name":"Mentality",
+                    "value": "Defensive"
+                },
+                {
+                    "name":"Tempo",
+                    "value": "Lower"
+                }
+                
+            ],
+            [
+
+                {
+                    "name":"Line",
+                    "value": "Lower"
+                },
+                {
+                    "name":"Pressing",
+                    "value": "Half"
+                }
+                
+            ],
+            [
+
+                {"name":"Distribuition",
+                "value": ["Out of Defense","Middle"]},
+                {"name":"Final Third",
+                "value": ["Center", "Left", "Right"]},
+               { "name":"Early Crosses",
+                "value": "Sometimes"},
+               { "name":"Long Shoot",
+                "value": "Often"}
+
+                
+            ]
+    
+        ],
+        "positions":[
+            {
+                "id":1,
+                "name":"GK",
+                "player": "paulo",
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "None"
+                        
+                    },
+                    {
+                        "name":"Defence Width",
+                        "value": "Sit Narrower"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    }
+
+                ]
+            },
+            {
+                "id":2,
+                "name":"RB",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "Tight"
+                    },
+                    {
+                        "name":"Defence Width",
+                        "value": "Stay Wider"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Balanced"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Go Forward"
+                    }
+                ]
+            },
+            {
+                "id":3,
+                "name":"DCR",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "Tighter"
+                    },
+                    {
+                        "name":"Flank",
+                        "value":"Keep Position"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    }
+                ]
+            },
+            {
+                "id":4,
+                "name":"DCL",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value":"Tight"
+                    },
+                    {
+                        "name":"Flank",
+                        "value":  "Keep Position"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    }
+                ]
+            },
+            {
+                "id":5,
+                "name":"LB",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value":"Tight"
+                    },
+                    {
+                        "name":"Defence Width",
+                        "value": "Sit Narrower"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    }
+                ]  
+            },
+            {
+                "id":6,
+                "name":"MCR",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "Tight"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    }
+                ]  
+            },
+            {
+                "id":7,
+                "name":"RM",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "Tight"
+                    },
+                    {
+                        "name":"Defence Width",
+                        "value":"Sit Narrower"
+                    },
+                    {
+                        "name":"Flank",
+                        "value": "Cover Flank"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    }
+                    
+                ]  
+            },
+            {
+                "id":8,
+                "name":"MCL",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "None"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    },
+                    {
+                        "name":"Channels",
+                        "value": "Go to"
+                    }
+                ]  
+            },
+            {
+                "id":9,
+                "name":"CFR",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value":"Tight"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    }
+                ]  
+            },
+            {
+                "id":10,
+                "name":"CFL",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "Tight"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    },
+                    {
+                        "name":"Shooting",
+                        "value": "More"
+                    },
+                    {
+                        "name":"Dribbling",
+                        "value": "Less"
+                    }
+                ]
+            },
+            {
+                "id":11,
+                "name":"LM",
+                "player": null,
+                "instructions":[
+                    {
+                        "name":"Pressing",
+                        "value": "Tight"
+                    },
+                    {
+                        "name":"Defence Width",
+                        "value":  "Sit Narrower"
+                    },
+                    {
+                        "name":"Flank",
+                        "value": "Keep Position"
+                    },
+                    {
+                        "name":"Passing Directness",
+                        "value": "Short"
+                    },
+                    {
+                        "name":"Movement",
+                        "value": "Stay Back"
+                    },
+                    {
+                        "name":"Attack Width",
+                        "value": "Stay Wider"
+                    },
+                    {
+                        "name":"Shooting",
+                        "value": "More"
+                    },
+                    {
+                        "name":"Dribbling",
+                        "value": "Less"
+                    }
+                ]  
+            }
+        ]
+
+    }
+    
+}

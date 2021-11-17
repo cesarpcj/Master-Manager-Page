@@ -1,0 +1,34 @@
+[
+    { "name":"Home",
+        "icon":"home",
+        "link":""
+    },
+    { "name":"Squad",
+        "icon":"users",
+        "link":""
+    },
+    { "name":"Training",
+        "icon":"clipboard",
+        "link":""
+    },
+    { "name":"Tournament",
+        "icon":"trophy",
+        "link":""
+    },
+    { "name":"Finances",
+        "icon":"briefcase",
+        "link":""
+    },
+    { "name":"Calendar",
+        "icon":"calendar alternate",
+        "link":""
+    },
+    { "name":"Email",
+        "icon":"envelope",
+        "link":""
+    },
+    { "name":"Tactics",
+        "icon":"calendar",
+        "link":""
+    }
+]
