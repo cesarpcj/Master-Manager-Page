@@ -2,22 +2,23 @@ import React from 'react'
 import Button from "./buttonA";
 import {Link } from "react-router-dom";
 
-export default function TacticsMenu({activedMenu, setActivedMenu}) {
+export default function TacticsMenu() {
+    const arr = window.location.pathname.split("/");
     return (
         <>
         <div className="btn">
            
                 <Link to="/tactics">
-                    <Button active={activedMenu === "Formation"} setActivedMenu={setActivedMenu}>Formation</Button>
+                    <Button active={arr[arr.length - 1] === "tactics"} >Formation</Button>
                 </Link>  
 
                 <Link to="/tactics/set-team-instructions">
-                    <Button active={activedMenu === "Team Instructions"} setActivedMenu={setActivedMenu}>Team Instructions</Button>
+                    <Button active={arr[arr.length - 1] === "set-team-instructions"} >Team Instructions</Button>
                 </Link>  
 
                 <Link to="/tactics/set-player-instructions">
                     
-                    <Button active={activedMenu === "Player Instructions"} setActivedMenu={setActivedMenu}>Player Instructions</Button>
+                    <Button active={arr[arr.length - 1] === "set-player-instructions"} >Player Instructions</Button>
                 </Link>  
 
                 

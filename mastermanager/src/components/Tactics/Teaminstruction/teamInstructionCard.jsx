@@ -9,7 +9,7 @@ export default function TeamInstructionCard({title,data, updateTeamInstruction})
         <>
         <div className="card-title-light"><p>{title}</p></div>
         {
-            data && data.map(instruction => <TeamSingleInstruction instruction={instruction} updateTeamInstruction={updateTeamInstruction}></TeamSingleInstruction>)
+            data && data.map(instruction => <TeamSingleInstruction key={instruction.name} instruction={instruction} updateTeamInstruction={updateTeamInstruction}></TeamSingleInstruction>)
         }
         </>
        

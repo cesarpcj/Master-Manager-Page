@@ -4,7 +4,7 @@ export default function ButtonA({children, active, setActivedMenu}){
     //const [actived,setActived] = useState(active || false);
     const style =  active ? "button-a-active" : "button-a" ;
     return(<>
-        <button className={style} onClick={()=>setActivedMenu(children)}>{children}</button>
+        <button className={style} >{children}</button>
         <style>
             {`
                 .button-a{

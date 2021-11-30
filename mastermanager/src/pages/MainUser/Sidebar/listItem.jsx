@@ -1,6 +1,6 @@
 import React from 'react';
 import {Icon} from "semantic-ui-react";
-import { DARKBLUEBACK } from '../../../../constants/color';
+import { DARKBLUEBACK } from '../../../constants/color';
 import {Link} from "react-router-dom" 
 
 export default function ListItem({item, setCurrentPage}){

@@ -1,13 +1,41 @@
 
 import './App.css';
+import { useState, useEffect } from 'react';
+import MainUser from './pages/MainUser';
+import LandPage from './pages/LandPage';
+import { getAuthenticatedUser } from './controller/user-controller';
 
-import MainUser from './components/Pages/MainUser';
-import LandPage from './components/Pages/LandPage';
+
 
 function App() {
+  const [isLogged, setIsLogged] = useState(false);
+  const [user, setUser] = useState(null);
+  const [isLoaded,setIsLoaded] = useState(false);
+   
+  useEffect(()=>{
+    const token = localStorage.getItem("token");
+    if(!user && token){
+      getAuthenticatedUser()
+      .then((result) => {
+        
+        setUser(result.data)
+        
+      }).catch((err) => {
+        
+      });
+      
+    }
+
+    if(user && !isLogged) setIsLogged(true);
+    setIsLoaded(true);
+
+    
+  },[user, isLogged])
+
   return (
+    
     <div className="App">
-      <MainUser/>
+      {isLoaded && isLogged ? <MainUser/> : <LandPage setUser={setUser}/>}
     </div>
   );
 }

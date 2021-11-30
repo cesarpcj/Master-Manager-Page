@@ -1,0 +1,124 @@
+.market{
+    background-color: #ccc;
+    min-width: 100vw;
+}
+
+.market  .next{
+    display: flex;
+}
+
+.market .next  .player-list{
+    min-width: 300px;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.market  .next  .player-list > .item {
+    
+    display: flex;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+
+}
+
+
+
+.market  .next  .player-list > .item > .wrap1 {
+    width: 60%; 
+    
+}
+.market  .next  .player-list > .item  .name {
+    font-size: 18px;
+    text-align: left;  
+    font-weight: 700;
+}
+.market  .next  .player-list > .item  .name-inactive{
+    font-size: 18px;
+    text-align: left;  
+    font-weight: 700;
+    color: #ccc
+}
+.market  .next  .player-list > .item  .number {
+    font-size: 18px;
+    text-align: left;  
+    font-weight: 500;
+    padding-right: 7px;
+}
+.market  .next  .player-list > .item  .number-inactive{
+    font-size: 18px;
+    text-align: left;  
+    font-weight: 500;
+    color: #ccc;
+    padding-right: 7px;
+}
+.market  .next  .player-list > .item  .position {
+    text-transform: uppercase;
+    color: #666;
+    text-align: left;
+
+}
+.market  .next  .player-list > .item  .position-inactive{
+    text-transform: uppercase;
+    color: #ddd;
+    text-align: left;
+
+}
+.market  .next  .player-list > .item  .value {
+    width: 20%;
+    align-self: center;
+    font-weight: 700;
+}
+.market  .next  .player-list > .item  .value-inactive{
+    width: 20%;
+    align-self: center;
+    font-weight: 700;
+    color: #ccc;
+}
+.market  .next  .player-list > .item > .btn-add {
+    background-color: #4CAF50;
+    color: white;
+    border: 0px solid #4CAF50;
+    width: 20%;
+    border-radius: 5px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer
+}
+.market  .next  .player-list > .item > .btn-remove {
+    background-color: #f44336;
+    color: white;
+    border: 0px solid #f44336;
+    width: 20%;
+    border-radius: 5px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer
+}
+.market  .next  .player-list > .item > .btn-remove-inactive{
+    background-color: #ddd;
+    color: white;
+    border: 0px solid #ccc;
+    width: 20%;
+    border-radius: 5px;
+    height: 30px;
+    align-self: center;
+}
+
+.market .header{
+    margin: 0px 15px;
+    padding: 10px 0px;
+}
+
+.market .market-money-box{
+    margin: 10px;
+
+}
+.market .market-money-unit{
+    text-align: right;
+    font-weight: 700;
+}
+
+
+
+

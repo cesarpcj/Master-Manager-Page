@@ -11,7 +11,7 @@ export default function SingleInstruction({instruction, updatePlayerInstruction}
             <div className="instruction-name">{instruction.name}</div>
             <div className="instruction-values">
                 {data && data.map(value => {
-                    return  <div onClick={()=>updatePlayerInstruction(instruction.name, value)} className={value === instruction.value ? "instruction-value-active":"instruction-value"}>{value}</div>;
+                    return  <div key={value} onClick={()=>updatePlayerInstruction(instruction.name, value)} className={value === instruction.value ? "instruction-value-active":"instruction-value"}>{value}</div>;
                 }      
                 )}
             </div>

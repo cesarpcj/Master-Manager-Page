@@ -1,10 +1,13 @@
 import React from 'react'
 
-export default function ButtonB({children, active}) {
-    const style = active ? "button-b-active" : "button-b";
+export default function ButtonB({children, active, setTacticName}) {
+    
     return (
         <>
-           <button className={style}>{children}</button> 
+           {
+               active ? <button className="button-b-active">{children}</button> :
+                        <button className="button-b" onClick={()=>setTacticName(children.toLowerCase())}>{children}</button>
+           }
 
            <style>
                {`

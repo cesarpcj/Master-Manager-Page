@@ -3,7 +3,7 @@ import AttributesItem from './attributesItem'
 
 export default function Attributes({player}) {
 
-    console.dir(Array.from(player.attributes));
+    
 
     return (
         <>
@@ -15,9 +15,9 @@ export default function Attributes({player}) {
             
                 <ul className="formation-attributes-list">
                 
-                {Object.keys(player.attributes).map(key=>{
+                {player && Object.keys(player.attributes).map(key=>{
                     
-                    return <AttributesItem name={key} value={player.attributes[key]}/>
+                    return <AttributesItem key={key} name={key} value={player.attributes[key]}/>
                 })}
                 
                 </ul>

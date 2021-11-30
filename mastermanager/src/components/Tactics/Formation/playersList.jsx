@@ -17,13 +17,10 @@ export default function PlayersList({players,selectPlayer}) {
                     <div className="formation-player-name-title">Name</div>
                 </div>
             <ul className="player-list">
-                {players.map(player => {
+                {players && players.map(player => {
                     return <PlayerListItem key={player.id} player={player} selectPlayer={selectPlayer}/>
                 })}
-                {players.map(player => {
-                    return <PlayerListItem key={player.id} player={player} selectPlayer={selectPlayer}/>
-                })}
-
+               
             </ul>
             </div>
             

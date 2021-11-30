@@ -1,5 +1,5 @@
 import React from 'react'
-import { BLUEBACK, DARKBLUEBACK } from '../../../constants/color'
+import { BLUEBACK, DARKBLUEBACK } from '../../constants/color'
 
 export default function Header({currentPage}) {
     

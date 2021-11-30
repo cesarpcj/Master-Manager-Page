@@ -1,9 +1,9 @@
 .formation-form{
-    padding: 20px 5px;
+    padding: 30px 10px;
     color: white;
     display:flex;
     justify-content: center;
-    height: 78px;
+    
 }
 
 .formation-select{

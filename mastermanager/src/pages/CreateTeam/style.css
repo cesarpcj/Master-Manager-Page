@@ -1,0 +1,16 @@
+.create-team{
+    padding: 30px;
+    margin: 50px auto;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.x{
+    
+    display: flex;
+    flex-direction: column
+}
+
+.margin-10{
+    margin: 10px;
+}

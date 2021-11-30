@@ -9,7 +9,7 @@ export default function PositionIcon({positionName,name, x, y, selecionar, selec
             <div className={style} style={{left:x, top:y }} >
                 <div className="icon-name">{name}</div>
             </div>
-            <style jsx>{`
+            <style>{`
                 
                 .icon-container{
                     position: absolute;

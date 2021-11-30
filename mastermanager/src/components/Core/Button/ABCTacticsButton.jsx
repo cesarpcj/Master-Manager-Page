@@ -1,20 +1,23 @@
 import React from 'react'
 import Button from './buttonB';
 
-export default function ABCTacticsButton({activedABC}) {
+export default function ABCTacticsButton({activedABC, setTacticName}) {
     return (
         <>
             <div className="btn-abc">
            
-                <Button active={activedABC === "A"}>A</Button>
-                <Button active={activedABC === "B"}>B</Button>
-                <Button active={activedABC === "C"}>C</Button>
+                <Button active={activedABC === "a"} setTacticName={setTacticName}>A</Button>
+                <Button active={activedABC === "b"} setTacticName={setTacticName}>B</Button>
+                <Button active={activedABC === "c"} setTacticName={setTacticName}>C</Button>
             
             </div>
             <style>
                 {`
                 .btn-abc{
-                    padding:20px 30px;
+                    display: flex;
+                    flex-direction: row;
+                    
+                    margin: 30px 5px 30px 20px
                 }
                 `}
             </style>

@@ -2,13 +2,15 @@ import React,{useState} from 'react'
 import Logo from './logo'
 import Header from './header'
 import Nav from './Sidebar/index'
-import {BrowserRouter as Router, Route,Switch} from "react-router-dom"
+import {BrowserRouter as Router, Route,Switch, Redirect} from "react-router-dom"
 import Tactics from "../Tactics"
 import Home from "../Home"
 import Training from "../Training"
 import Finances from "../Finances"
 import Calendar from "../Calendar"
 import Mail from "../Mail"
+import Market from "../Market"
+import CreateTeam from "../CreateTeam"
 
 export default function MainUser() {
     const str = window.location.pathname;
@@ -34,6 +36,9 @@ export default function MainUser() {
                             <Route path="/finances" component={Finances}/>
                             <Route path="/calendar" component={Calendar}/>
                             <Route path="/email" component={Mail}/>
+                            <Route path="/market" component={Market}/>
+                            <Route path="/create-team" component={CreateTeam}/>
+                            <Route path="/"><Redirect to="home"></Redirect></Route>
                         </Switch>
                         
                     </main>

@@ -20,7 +20,7 @@ export default function PlayerInstruction({formation, iconName, title, updatePla
         <div>
             <div className="card-title-light"><p>{title}</p></div>
             
-                {data && dataFiltered.map(instruction => <SingleInstruction instruction={instruction} updatePlayerInstruction={updatePlayerInstruction}/>)}
+                {data && dataFiltered.map(instruction => <SingleInstruction key={instruction.name} instruction={instruction} updatePlayerInstruction={updatePlayerInstruction}/>)}
             
             
         </div>

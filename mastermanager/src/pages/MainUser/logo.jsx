@@ -1,6 +1,6 @@
 import React from 'react'
 import {Icon} from "semantic-ui-react";
-import { DARKBLUEBACK } from '../../../constants/color'
+import { DARKBLUEBACK } from '../../constants/color'
 
 
 export default function Logo() {
